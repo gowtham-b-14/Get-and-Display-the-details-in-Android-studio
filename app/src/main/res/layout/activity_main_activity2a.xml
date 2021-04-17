@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2a">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="your_details"
+            android:textColor="#BF2AB2"
+            android:textSize="35sp" />
+
+        <TextView
+            android:id="@+id/putName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="serif"
+            android:gravity="center|start"
+            android:textColor="#BF2AB2"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/putReg"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="serif"
+            android:gravity="center|start"
+            android:textColor="#BF2AB2"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/putDept"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="serif"
+            android:gravity="center|start"
+            android:textColor="#BF2AB2"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/putClg"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="serif"
+            android:gravity="center|start"
+            android:textColor="#BF2AB2"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/putSkills"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="serif"
+            android:gravity="center|start"
+            android:textColor="#BF2AB2"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+
